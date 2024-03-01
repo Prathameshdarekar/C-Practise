@@ -44,12 +44,14 @@ namespace CalculatorApp
                     }
                     else
                     {
-                        Console.WriteLine("Error: Division by zero");
+                        Console.WriteLine("error: Division by zero");
+                        Console.ReadLine();
                         return;
                     }
                     break;
                 default:
                     Console.WriteLine("Invalid choice.");
+                    Console.ReadLine();
                     return;
             }
 
